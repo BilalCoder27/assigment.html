@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form </title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>JOB REGISTRATION FORM</h1>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <form action="http://www.example.com/profile.php">
+        <div>
+            <label>NAME:<input type="text" name="name" size="20"
+            maxlength="40"> </label> &nbsp;&nbsp;&nbsp;&nbsp;      
+        <label > FATHER NAME:   <input type="text" name="FATHER NAME" size="15"
+            maxlength="30"></label>
+        </div>
+        <br>
+            <div>
+                <label>EMAIL:
+                    <input type="text" name="EMAIL" size="20" maxlength="40">
+                </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>PHONE NUMBER:
+                    <input type="text" name="phone number" size="20"
+                    maxlength="40"></label>
+            </div>
+        <br> 
+            <div>
+                <label>CNIC NUMBER:
+                    <input type="text" name="cnic number" size="20"
+                    maxlength="40">
+                </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                GENDER:
+                <input id="female" type="radio" name="GENDER"
+                value="f">
+                <label for="female"> FEMALE</label>
+                <input  id="male" type="radio" name="GENDER"
+                value="m">
+                <label for="male">MALE</label>
+            </div>
+            <br>
+            <div>
+                <label for="birthdate">DATE OF BIRTHDATE 
+                    <input type="date" id="birthdate" n>
+                </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                  <label for="country-choice">COUNTRY:</label>
+<input list="countries" id="country-choice" name="country-choice" placeholder="select country..." 
+size="13" maxlength="20">
+
+<datalist id="countries">
+    
+    <option value="Pakistan">
+        <option value="Saudi arabia">
+            <option value="Chaina">
+                <option value="India">
+  <option value="Amrica">
+  <option value="Canada">
+  <option value="United Kingdom">
+  <option value="Australia">
+  <option value="Germany">
+</datalist>    
+            </div>
+            <br>
+          <div>ADDRESS:             
+                <textarea name="address"  cols="30" rows="5">Enter your address... 
+                </textarea>
+                <br>
+                <br>
+                <div>MATIRAL STATUS:
+                 <input id="single" type="radio" name="matiralstatus"
+                value="m">
+                <label for="SINGLE"> SINGLE</label>
+                <input  id="married" type="radio" name="matiralstatus"
+                value="m">
+                <label for="married">Married</label>
+                <br>
+                <br>
+                <div>
+                 <label for="skills-choice">SKILLS:</label>
+<input list="skills" id="skills-choice" name="skills-choice" placeholder="select skills..." 
+size="10" maxlength="20">
+
+<datalist id="skills">
+    
+    <option value="Data entry">
+        <option value="Typing">
+            <option value="Graphic desining">
+                <option value="web developer">
+  <option value="Aap developer">
+</datalist>&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="education-choice">EDUCATION:</label>
+<input list="education" id="education-choice" name="edcation-choice" placeholder="select education..." 
+size="15" maxlength="20">
+
+<datalist id="education">
+    
+    <option value="Matric">
+        <option value="Intermadicate">
+            <option value="Bechelor">
+                <option value="Master">
+                    </div>
+                    <p>
+                      EXPERIENCE LEVEL:
+                      <br>
+                      <input type="checkbox" name="level" 
+                      value="beginner"  /> BEGINNER 
+                      <input type="checkbox" name="level" 
+                      value="Intermadicate"  /> INTERMADICATE 
+                      <input type="checkbox" name="level" 
+                      value="experienced"  /> EXPERIENCED
+                      <input type="checkbox" name="level" 
+                      value="expert"  /> EXPERT
+                    </p>
+                    <div>
+                        <input type="submit" value="submit">&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="reset" value="reset">
+                    </div>
+
+
+ 
+
+
+        </form>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
