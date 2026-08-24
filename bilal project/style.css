@@ -1,0 +1,46 @@
+
+       body{
+        background-color: bisque;
+       }
+       h1{
+        color: brown;
+            text-align: center;
+            font-size: 50px;
+            font-family: a;
+            margin: 40px auto;
+        }
+        table{
+            margin: auto;
+            font-size: 30px;
+           border-color: brown;
+           border-radius: 15px;
+           border-collapse: separate;
+        
+        }
+        td{
+            border: 2px solid brown;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+          
+           
+        
+        tr:nth-child(1) td{
+            color: yellowgreen;
+        }
+        tr:nth-child(5) td{
+            color: red;
+        }
+        tr:nth-child(3) td:nth-child(3){
+            color: blue;
+        }
+        tr:nth-child(7) td:nth-child(4){
+            color: blue;
+        }
+         tr:nth-child(8) td:nth-child(1){
+            color: blue;
+        }
+        
+
+
+
