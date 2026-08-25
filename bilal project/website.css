@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(192, 162, 117);
+}
+h1{
+     color: hsl(0, 42%, 48%);
+            text-align: center;
+            font-size: 50px;
+            font-family: a;
+            margin: 40px auto;
+}
+h2{
+    color:  hsl(0, 42%, 48%);
+}
+h4{
+    color: hsl(0, 42%, 48%);
+}
+h3{
+    color: hsl(0, 42%, 48%);
+}
+li{
+    color: rgb(92, 33, 33);
+}
+p{
+    color: rgb(92, 33, 33);
+}
+h5{
+    color: hsl(0, 42%, 48%);
+}
+table{
+    color: rgb(104, 27, 27);
+    border-color: brown;
+}
