@@ -1,0 +1,52 @@
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+.portfolio-box {
+  width: 300px;
+  height: 180px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 0 auto;
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.about-box {
+  width: 500px;
+  height: 200px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 0 auto;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+
+.card {
+    width: 280px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+
+
+
