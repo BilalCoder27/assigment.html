@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 20px;
+}
+
+body h1 {
+    text-align: center;
+    color: #38bdf8;
+    margin-bottom: 25px;
+}
+
+/* 18 Column Grid */
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 6px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Fixed Card Box */
+.element {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 4px;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Image Control: Prevents Box Distortions */
+.element img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.element > h3 {
+    font-size: 1.05rem;
+    color: #ffffff;
+    line-height: 1;
+}
+
+.number, .name {
+    display: block;
+    font-size: 0.6rem;
+    color: #94a3b8;
+}
+
+/* Specific Positions */
+.element.helium {
+    grid-column: 18;
+}
+
+.element.boron, .element.aluminum {
+    grid-column: 13;
+}
+
+/* Pseudo Class & Attribute Selectors */
+.element:hover {
+    background-color: #334155;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+}
+
+.element:first-child {
+    border-color: #38bdf8;
+}
+
+div[class*="carbon"], div[class*="nitrogen"], div[class*="oxygen"] {
+    background-color: #065f46;
+}
+
+.lithium + .beryllium {
+    border-color: #f59e0b;
+}
