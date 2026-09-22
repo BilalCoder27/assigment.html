@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+}
+.container{
+    display: flex;
+
+}
+#left-box{
+    /* background-color: black; */
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+#left-box > div > img{
+    height: 500px;
+    width: 500px;
+}
+#left-box > h1{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    height: 200px;
+       margin-top: 200px;
+    margin-left: 20px;
+}
+#left-box > h1 > span{
+    color: #1877f2;
+}
+#fb-logo{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#rigth-box{
+    /* background-color: red; */
+     height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #ccc;
+
+
+}
+#rigth-box > h2{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    margin-bottom: 20px;
+
+}
+#iput-boxes{
+    width: 500px;
+    /* height: 200px; */
+}
+#iput-boxes > #email , #iput-boxes > #password{
+    width: 100%;
+}
+#email > input , #password > input{
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    font-size: 15px;
+}
+#login-botton > button {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #1877f2;
+    cursor: pointer;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+#forget-botton > button {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 70px;
+
+}
+#forget-botton > button:hover {
+    background-color: gray;
+
+}
+#singup-botton > button {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    /* background-color: #1877f2; */
+    cursor: pointer;
+    border: 1px solid #1877f2;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+#meta-logo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#meta-logo > img{
+    height: 30px;
+    width: 30px;
+}
+
